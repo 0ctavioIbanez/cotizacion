@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  typescript: {
-    ignoreBuildErrors: true,
-  },
+  basePath: '/cotizacion', // <--- Agrega el nombre de tu repo exacto
   images: {
     unoptimized: true,
   },
-}
+};
 
-export default nextConfig
+export default nextConfig;
